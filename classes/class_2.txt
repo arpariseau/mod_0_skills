@@ -1,0 +1,18 @@
+class OpenTable
+
+Attributes:
+- num_seats (integer)
+- assigned_staff (string)
+- is_occupied (boolean)
+- food_order (array)
+- received_food (boolean)
+- is_clean (boolean)
+
+Methods:
+- set_seats (changes the num_seats attribute)
+- set_staff (changes the assigned_staff attribute)
+- sit_guest (changes the is_occupied to True)
+- add_to_order (adds to the food_order array)
+- deliver_order (sets received_food to True, is_clean to False)
+- clear_customer (sets is_occupied to False, received_Food to False, empties food_order array)
+- clean_table (sets is_clean to True)
