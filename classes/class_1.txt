@@ -1,0 +1,18 @@
+class MenuItem
+
+Attributes:
+- name (string)
+- description (string)
+- price (float)
+- ingredients (array)
+- avail_brkfst (boolean)
+- avail_lunch (boolean)
+- avail_dinner (boolean)
+- daily_special (boolean)
+
+Methods:
+- set_price (changes the price attribute)
+- add_ingredient (adds an ingredient to the ingredients attribute)
+- remove_ingredient (removes an ingredient from the ingredients attribute)
+- set_availability (sets whether the three availability attributes are true or false)
+- make_special (sets the daily_special to True and modifies the price to add a discount)
