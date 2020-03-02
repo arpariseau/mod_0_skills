@@ -1,0 +1,18 @@
+object table_3
+
+Attributes:
+- num_seats (4)
+- assigned_staff ("Jennifer")
+- is_occupied (False)
+- food_order ([])
+- received_food (False)
+- is_clean (True)
+
+Methods:
+- set_seats (changes num_seats to 6)
+- set_staff (changes assigned_staff to "Robert")
+- sit_guest (changes is_occupied to True)
+- add_to_order (changes food_order from [] to ["roast beef sandwich"])
+- deliver_order (received_food is now True, is_clean is now False)
+- clear_customer (is_occupied is now False, received_food is now False, food_order is now [])
+- clean_table (is_clean is True, again)
