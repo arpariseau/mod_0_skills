@@ -1,0 +1,18 @@
+object roast_beef_sandwich
+
+Attributes:
+- name ("Roast Beef Sandwich")
+- description ("A savory roast beef sandwich, complete with lettuce and tomatoes")
+- price (4.99)
+- ingredients (["roast beef", "lettuce", "tomato", "bread", "mayo"])
+- avail_brkfst (False)
+- avail_lunch (True)
+- avail_dinner (False)
+- daily_special (False)
+
+Methods:
+- set_price (change the price from 4.99 to 4.50)
+- add_ingredient (adds "swiss cheese" into the ingredients array)
+- remove_ingredient (removes "mayo" from the ingredients array)
+- set_availability (change it so that both avail_lunch and avail_dinner are True, avail_brkfst is False)
+- make_special (sets daily_special to True and changes price from 4.50 to 3.60, 20% discount)
